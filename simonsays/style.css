@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    background-color: #000;
+    color: white;
+    font-family: sans-serif;
+}
+
+.btn-container {
+    margin-top: 30px;
+}
+
+.btn-line1, .btn-line2 {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.red { background-color: red; }
+.yellow { background-color: yellow; }
+.green { background-color: green; }
+.purple { background-color: purple; }
+
+.flash {
+    opacity: 0.5;
+}
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    transform: scale(0.95);
+}
+
+.game-over {
+    background-color: red;
+}
